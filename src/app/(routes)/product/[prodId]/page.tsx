@@ -1,10 +1,10 @@
+import { FC } from 'react'
 import getProduct from '@/actions/get-product'
 import getProducts from '@/actions/get-products'
 import Gallery from '@/components/gallery/Gallery'
 import ProductList from '@/components/ProductList'
 import Container from '@/components/ui/container'
 import Info from '@/components/ui/info'
-import { FC } from 'react'
 
 interface pageProps {
   params: { prodId: string }
