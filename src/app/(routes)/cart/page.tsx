@@ -4,6 +4,7 @@ import { FC, useEffect, useState } from 'react'
 import cart from '@/hooks/use-cart'
 import Container from '@/components/ui/container'
 import CartItem from './components/cart-item'
+import Summary from './components/summary'
 
 interface pageProps {}
 
@@ -36,6 +37,7 @@ const Page: FC<pageProps> = ({}) => {
                 ))}
               </ul>
             </div>
+            <Summary />
           </div>
         </div>
       </Container>
