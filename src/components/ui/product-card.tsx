@@ -44,8 +44,7 @@ const ProductCard: FC<ProductCardProps> = ({ data }) => {
         <Image
           src={data?.images?.[0]?.url}
           alt={data?.name}
-          width={1}
-          height={1}
+          fill
           className="w-full aspect-square object-cover rounded-md"
         />
         <div className="absolute bottom-5 w-full px-6 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out">
