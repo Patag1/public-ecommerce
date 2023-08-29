@@ -13,7 +13,7 @@ const Billboard: FC<BillboardProps> = ({ data }) => {
         style={{ backgroundImage: `url(${data?.imageUrl})` }}
       >
         <div className="w-full h-full flex flex-col justify-center items-center text-center gap-y-8">
-          <div className="max-w-xl md:max-w-xs font-bold text-5xl md:text-3xl lg:text-6xl text-wrap-balance">
+          <div className="max-w-xl md:max-w-xs font-bold text-white text-5xl md:text-3xl lg:text-6xl text-wrap-balance">
             {data?.label}
           </div>
         </div>
