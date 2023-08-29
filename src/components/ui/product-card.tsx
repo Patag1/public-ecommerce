@@ -40,9 +40,9 @@ const ProductCard: FC<ProductCardProps> = ({ data }) => {
       className="p-3 space-y-4 bg-white group cursor-pointer border rounded-xl"
     >
       {/* images & action */}
-      <div className="relative aspect-squared bg-gray-100 rounded-xl">
+      <div className="relative aspect-square bg-gray-100 rounded-xl">
         <Image
-          src={data?.images?.[0]?.url}
+          src={data.images?.[0]?.url}
           alt=""
           fill
           className="aspect-square object-cover rounded-md"
