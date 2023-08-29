@@ -1,7 +1,7 @@
 ## Ecommerce Public Store
 The Ecommerce Public Store repository contains the front-side code for the e-commerce's user interface. This project provides a seamless and engaging shopping experience for customers, enabling them to browse products, add items to their cart, and complete their purchases. With responsive design and intuitive navigation, this frontend enhances the overall ecommerce journey for users.
 
-Ecommerce Store Preview
+![Ecommerce Store Preview](https://i.imgur.com/xYLUvwM.png)
 
 ## Features
 1. Product Catalog
